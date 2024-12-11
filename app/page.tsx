@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import "./globals.css"
 import { ArrowLeftCircle } from "lucide-react";
 
