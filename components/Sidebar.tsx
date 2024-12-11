@@ -83,7 +83,7 @@ function Sidebar() {
   if (error) { console.error(error.message) }
   // Render menu options
   const menuOptions = (
-    <div className="flex flex-col align-middle">
+    <div className="flex flex-col aligcn-middle">
       <NewDocumentbutton />
       {/* My Documents */}
 

@@ -1,7 +1,5 @@
 'use client'
-
-
-import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import { useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import BreadCrumbs from "./ui/BreadCrumbs";

@@ -1,6 +1,6 @@
 import { useRoom, useSelf } from "@liveblocks/react/suspense";
 import * as Y from "yjs";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { LiveblocksYjsProvider } from "@liveblocks/yjs";
 import { Button } from "./ui/button";
 import { MoonIcon, SunIcon } from "lucide-react";
