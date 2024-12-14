@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { Button } from "./ui/button";
 import { useTransition } from "react";
-import { createNewDocument } from "@/actions/actions";
+import { createNewDocument } from "../actions/actions";
 import { toast } from "react-toastify";
 
 function NewDocumentbutton() {

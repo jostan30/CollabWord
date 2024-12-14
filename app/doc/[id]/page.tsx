@@ -1,7 +1,7 @@
 'use client'
 
-import Document from "@/components/Document"
 import { useParams } from "next/navigation";
+import Document from "../../../components/Document";
 
 function Documentpage() {
   const {id} =useParams<{id:string}>();

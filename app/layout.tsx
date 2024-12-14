@@ -1,8 +1,8 @@
 import { ClerkProvider, } from '@clerk/nextjs'
 import './globals.css'
-import Header from '@/components/Header'
+import Header from '../components/Header'
 import React from 'react'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '../components/Sidebar'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

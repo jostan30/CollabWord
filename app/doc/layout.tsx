@@ -1,6 +1,6 @@
 'use client'
 
-import LiveBlocksProvider from "@/components/LiveBlocksProvider";
+import LiveBlocksProvider from "../../components/LiveBlocksProvider";
 import { ReactNode } from "react";
 
 function Pagelayout({ children }: {children: ReactNode}) {
