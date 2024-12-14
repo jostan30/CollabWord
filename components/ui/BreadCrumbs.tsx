@@ -5,7 +5,7 @@ import {
     BreadcrumbLink,
     BreadcrumbList,
     BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+} from "../../components/ui/breadcrumb";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 

@@ -14,7 +14,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../components/ui/sheet";
 import { DocumentData } from "firebase-admin/firestore";
 
 interface RoomDocument extends DocumentData {

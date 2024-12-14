@@ -1,15 +1,15 @@
 'use client'
 import { ReactNode, useEffect } from "react";
-import {
-    LiveblocksProvider
-} from "@liveblocks/react/suspense";
+import {LiveblocksProvider} from "@liveblocks/react/suspense";
 import { usePathname, useRouter } from "next/navigation";
 
+
 function LiveBlocksProvider({ children }: {
-    children: ReactNode
+    children: ReactNode,
 }) {
     const path = usePathname();
     const segments = path.split("/");
+    const roomId = segments[segments.length - 1];
     
 
     const router = useRouter();
@@ -21,7 +21,7 @@ function LiveBlocksProvider({ children }: {
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ roomId:segments[segments.length-1]  }),
+                    body: JSON.stringify({ room :roomId  }),
                 });
 
                 if (!res.ok) {
