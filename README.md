@@ -15,7 +15,7 @@ This web application allows multiple users to edit a document in real time. It i
 - **Frontend**: Next.js, React, Tailwind CSS
 - **Backend**: Firestore (Firebase)
 - **Real-time Collaboration**: Liveblocks API
-- **Authentication**: Firebase Auth
+- **Authentication**: Firebase Clerk
 
 ## 📖 How It Works
 1. **User Authentication** – Users log in using Firebase authentication.
@@ -34,8 +34,8 @@ This web application allows multiple users to edit a document in real time. It i
 ## 🛠️ Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   git clone https://github.com/jostan30/CollabWord.git
+   cd CollabWord
    ```
 2. Install dependencies:
    ```bash
@@ -43,8 +43,16 @@ This web application allows multiple users to edit a document in real time. It i
    ```
 3. Configure Firebase:
    - Create a Firebase project.
-   - Enable Firestore and Authentication.
-   - Copy Firebase credentials to `.env.local`.
+   - Enable Firestore.
+   - Enable Clerk.
+   -Copy keys to `.env.local`.
+     ```bash
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= ****
+     CLERK_SECRET_KEY=******
+     NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY =******
+     LIVEBLOCK_SECRET_KEY = ******
+   ```
+ 
 4. Start the development server:
    ```bash
    npm run dev
