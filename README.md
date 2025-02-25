@@ -44,7 +44,8 @@ This web application allows multiple users to edit a document in real time. It i
 3. Configure Firebase:
    - Create a Firebase project.
    - Enable Firestore.
-   - Copy Firebase credentials to `.env.local`.
+   - Enable Clerk.
+   -Copy keys to `.env.local`.
      ```bash
      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= ****
      CLERK_SECRET_KEY=******
