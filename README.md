@@ -15,7 +15,7 @@ This web application allows multiple users to edit a document in real time. It i
 - **Frontend**: Next.js, React, Tailwind CSS
 - **Backend**: Firestore (Firebase)
 - **Real-time Collaboration**: Liveblocks API
-- **Authentication**: Firebase Auth
+- **Authentication**: Firebase Clerk
 
 ## 📖 How It Works
 1. **User Authentication** – Users log in using Firebase authentication.
