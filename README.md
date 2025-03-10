@@ -51,6 +51,16 @@ This web application allows multiple users to edit a document in real time. It i
      CLERK_SECRET_KEY=******
      NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY =******
      LIVEBLOCK_SECRET_KEY = ******
+     FIREBASE_ADMIN_PROJECT_ID=your_project_id
+     FIREBASE_ADMIN_PRIVATE_KEY_ID=your_private_key_id
+     FIREBASE_ADMIN_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_LONG_PRIVATE_KEY_HERE\n-----END PRIVATE KEY-----\n"
+     FIREBASE_ADMIN_CLIENT_EMAIL=firebase-adminsdk-xxxxx@your_project.iam.gserviceaccount.com
+     FIREBASE_ADMIN_CLIENT_ID=your_client_id
+     FIREBASE_AUTH_URI=https://accounts.google.com/o/oauth2/auth
+     FIREBASE_TOKEN_URI=https://oauth2.googleapis.com/token
+     FIREBASE_AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+     FIREBASE_CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xxxxx%40your_project.iam.gserviceaccount.com
+
    ```
  
 4. Start the development server:
