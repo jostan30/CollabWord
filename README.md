@@ -42,9 +42,10 @@ This web application allows multiple users to edit a document in real time. It i
    npm install
    ```
 3. Configure Firebase:
-   - Create a Firebase project.
-   - Enable Firestore.
-   - Enable Clerk.
+   - Setup a Firebase project.
+   - Setup Firestore.
+   - Firestore console >Project Setting > Service accounts > Setup Firebase Admin SDK ,in the project.
+    - Setup Clerk.
    -Copy keys to `.env.local`.
      ```bash
      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= ****
@@ -60,7 +61,6 @@ This web application allows multiple users to edit a document in real time. It i
      FIREBASE_TOKEN_URI=https://oauth2.googleapis.com/token
      FIREBASE_AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
      FIREBASE_CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xxxxx%40your_project.iam.gserviceaccount.com
-
    ```
  
 4. Start the development server:
@@ -69,18 +69,13 @@ This web application allows multiple users to edit a document in real time. It i
    ```
 
 ## 📌 Future Enhancements
-- 🖼️ **Image & File Upload Support**
 - 🗂️ **Document Versioning**
 - 🗣️ **Live Chat for Collaboration**
-- 📊 **User Presence Indicator**
 
 ## 🤝 Contributing
 Pull requests are welcome! Feel free to fork the repo and make improvements.
 
-## 📜 License
-This project is licensed under the MIT License.
 
----
 
-**Happy Coding! 🚀**
+
 
